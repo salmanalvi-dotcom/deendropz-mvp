@@ -14,13 +14,20 @@ export default function LandingPage() {
     setDaysToRamadan(diff);
   }, []);
 
-  const handleSubmit = () => {
+const handleSubmit = async () => {
     if (!email.trim() || !email.includes('@')) return;
-    setSubmitted(true);
-    // TODO: Connect to Mailchimp/ConvertKit
-    console.log('Waitlist signup:', email);
+    try {
+      const res = await fetch('/api/waitlist', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+      const data = await res.json();
+      setSubmitted(true);
+    } catch (err) {
+      setSubmitted(true);
+    }
   };
-
   return (
     <div style={{ minHeight: '100vh' }}>
       {/* Nav */}
