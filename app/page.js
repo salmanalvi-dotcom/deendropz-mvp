@@ -253,7 +253,7 @@ const handleSubmit = async () => {
             borderRadius: 50, background: '#E8F5E9', color: '#1B5E20', fontSize: 14,
             fontFamily: "'Fredoka', sans-serif", fontWeight: 600, textDecoration: 'none',
           }}>
-            📸 Follow us @deendropz
+            📸 Follow us @deendropz.ai
           </a>
         </div>
         <p style={{ fontSize: 13, color: '#6B7B6E' }}>💧 DeenDropz.AI — Learn Islam, one drop at a time</p>
