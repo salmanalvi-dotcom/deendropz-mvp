@@ -248,7 +248,7 @@ const handleSubmit = async () => {
    {/* Footer */}
       <footer style={{ textAlign: 'center', padding: '20px 24px 32px', borderTop: '1px solid #E0E8E1' }}>
         <div style={{ marginBottom: 12 }}>
-          <a href="https://instagram.com/deendropz" target="_blank" rel="noopener noreferrer" style={{
+          <a href="https://instagram.com/deendropz.ai" target="_blank" rel="noopener noreferrer" style={{
             display: 'inline-flex', alignItems: 'center', gap: 6, padding: '8px 20px',
             borderRadius: 50, background: '#E8F5E9', color: '#1B5E20', fontSize: 14,
             fontFamily: "'Fredoka', sans-serif", fontWeight: 600, textDecoration: 'none',
