@@ -211,7 +211,7 @@ export default function ChatPage() {
           </button>
         </div>
         <p style={{ textAlign: 'center', fontSize: 11, color: '#bbb', marginTop: 8 }}>
-          AskDeen provides educational content reviewed by Islamic scholars. Always verify with your local imam.
+          AskDeen provides educational content with Quran & Hadith citations. Always verify with your local imam.
         </p>
       </div>
     </div>
