@@ -245,8 +245,17 @@ const handleSubmit = async () => {
         </div>
       </section>
 
-      {/* Footer */}
+   {/* Footer */}
       <footer style={{ textAlign: 'center', padding: '20px 24px 32px', borderTop: '1px solid #E0E8E1' }}>
+        <div style={{ marginBottom: 12 }}>
+          <a href="https://instagram.com/deendropz" target="_blank" rel="noopener noreferrer" style={{
+            display: 'inline-flex', alignItems: 'center', gap: 6, padding: '8px 20px',
+            borderRadius: 50, background: '#E8F5E9', color: '#1B5E20', fontSize: 14,
+            fontFamily: "'Fredoka', sans-serif", fontWeight: 600, textDecoration: 'none',
+          }}>
+            📸 Follow us @deendropz
+          </a>
+        </div>
         <p style={{ fontSize: 13, color: '#6B7B6E' }}>💧 DeenDropz.AI — Learn Islam, one drop at a time</p>
         <p style={{ fontSize: 11, color: '#aaa', marginTop: 4 }}>
           Scholar-reviewed content • COPPA compliant • Built with love for the Ummah
