@@ -18,8 +18,11 @@ export default function PrivacyPolicy() {
       <h2 style={{ fontSize: '22px', marginTop: '32px', marginBottom: '12px' }}>Data Storage & Security</h2>
       <p>Chat messages are processed in real-time by our AI service and are not permanently stored. Lesson progress and quiz scores are stored locally on your device only and are not transmitted to our servers.</p>
 
-      <h2 style={{ fontSize: '22px', marginTop: '32px', marginBottom: '12px' }}>Third-Party Services</h2>
-      <p>We use Anthropic's AI API to power the AskDeen chat feature. Chat messages are sent to Anthropic's servers for processing. Please refer to Anthropic's privacy policy for information on how they handle data.</p>
+      <h2 style={{ fontSize: '22px', marginTop: '32px', marginBottom: '12px' }}>Third-Party AI Service</h2>
+      <p><strong>What data is sent:</strong> When you use the AskDeen chat feature, the text of your questions is sent to Anthropic (our AI provider) for processing. No other data — such as your name, device information, or location — is sent.</p>
+      <p><strong>Who receives the data:</strong> Your chat questions are sent to Anthropic, PBC (San Francisco, CA). Anthropic processes the text to generate Islamic educational responses. Visit <a href="https://www.anthropic.com/privacy" style={{ color: '#1B5E20' }}>anthropic.com/privacy</a> for their privacy policy.</p>
+      <p><strong>How data is used:</strong> Your questions are used solely to generate a response in real-time. Anthropic does not use API inputs to train their models. Messages are not stored, linked to your identity, or shared with any other parties.</p>
+      <p><strong>User consent:</strong> The app requests your explicit permission before sending any data to Anthropic's AI service. You may decline and still use all other features of the app (lessons, quizzes, etc.).</p>
 
       <h2 style={{ fontSize: '22px', marginTop: '32px', marginBottom: '12px' }}>Advertising & Tracking</h2>
       <p>DeenDropz does not display advertisements. We do not use tracking cookies, analytics, or any third-party advertising services.</p>
